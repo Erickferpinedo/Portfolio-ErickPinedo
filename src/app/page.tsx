@@ -72,7 +72,7 @@ export default function Home() {
      <div id="about" className="w-full flex flex-col 
         justify-center items-center" >
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Get to Know More </small></p>
-          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">About Me </h1>
+          <h1 className="text-4xl font-bold dark:text-white">About Me </h1>
      </div>
 <div>
 <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
@@ -132,17 +132,38 @@ export default function Home() {
 
     <div className="w-full flex flex-col 
         justify-center items-center">
-<h1 className="mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white"><span className="bg-blue-100 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-2">I'm Erick Pinedo, a driven Information Technology student deeply passionate about leveraging technology to solve real-world problems. As an active member and leader at FNUTech Club, I thrive in collaborative environments and enjoy exploring the latest advancements in IT. With a background in collegiate soccer, I bring a strong work ethic, teamwork skills, and a knack for time management to everything I do. Eager to apply my blend of technical knowledge and leadership experience to contribute positively to a forward-thinking organization.</span></h1>
+<h1 className="mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white"><span className="text-center font-medium text-lg text-black dark:text-black">I'm Erick Pinedo, a driven Information Technology student deeply passionate about leveraging technology to solve real-world problems. As an active member and leader at FNUTech Club, I thrive in collaborative environments and enjoy exploring the latest advancements in IT. With a background in collegiate soccer, I bring a strong work ethic, teamwork skills, and a knack for time management to everything I do. Eager to apply my blend of technical knowledge and leadership experience to contribute positively to a forward-thinking organization.</span></h1>
     </div>
 
 <div id="Experience">
 <div  className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Explore My</small></p>
+
+</div >
+<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+<h1 className="text-4xl font-bold dark:text-white">Experience </h1>
 </div>
-<div  className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
-<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Experience </h1>
+
+<div className="flex flex-col md:flex-row">
+  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-0 md:mr-2">
+    <div className="w-full flex flex-col justify-center items-center">
+      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">Back-End Development</h1>
+    </div>
+  </div>
+
+  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-0">
+    <div className="w-full flex flex-col justify-center items-center">
+      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">Back-End Development</h1>
+    
+    </div>
+  </div>
 </div>
+
+
 </div>
+
+
+
 
 
     </main>
