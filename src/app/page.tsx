@@ -144,14 +144,32 @@ export default function Home() {
 <h1 className="text-4xl font-bold dark:text-white">Experience </h1>
 </div>
 
-<div className="flex flex-col md:flex-row">
-  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-0 md:mr-2">
-    <div className="w-full flex flex-col justify-center items-center">
-      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">Back-End Development</h1>
+<div className="flex flex-col md:flex-row ">
+  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+    <div >
+      <div className="w-full flex flex-col justify-center items-center">
+      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">Front-End Development</h1>
+      </div>
+     
+      <article className="flex flex-row items-start">
+  <Image
+    src="/checkmark.png"
+    width={30}
+    height={30}
+    alt="Picture of the author"
+    className="ml-2 mr-2"
+  />
+  <div className="flex flex-col">
+    <h3 className="text-left">Html</h3>
+    <p className="text-left">Experienced</p>
+  </div>
+</article>
+
+
     </div>
   </div>
 
-  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-0">
+  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2">
     <div className="w-full flex flex-col justify-center items-center">
       <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">Back-End Development</h1>
     
